@@ -1,2 +1,2 @@
 # dg
-DG - Starter WordPress theme
+DG - Starter Premium WordPress theme
