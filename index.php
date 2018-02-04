@@ -1,11 +1,8 @@
 <?php
 /**
  * Themes index file
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package dg
  */
+
 get_header(); ?>
 
 
