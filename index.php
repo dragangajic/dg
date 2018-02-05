@@ -5,8 +5,6 @@
 
 get_header(); ?>
 
-
-<h1>Testing</h1>
-
-
+<h1>testiranje</h1>
+	
 <?php get_footer(); ?>
