@@ -1,10 +1,18 @@
-	</div><!-- #content -->
+<?php
+/**
+ * Displaying the footer.
+ *
+ * @package dg
+ */
+?>
 
-	<footer id="" class="">
+	</main><!-- #main -->
 
-	</footer><!-- # -->
+	<footer id="footer" class="footer-wrapper">
 
-</div><!-- # -->
+	</footer><!-- #footer -->
+
+</div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
 
