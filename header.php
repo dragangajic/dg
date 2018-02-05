@@ -1,10 +1,14 @@
 <?php
 /**
  * Themes header
+ *
+ * @package dg
  */
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<!--[if IE 9 ]> <html <?php language_attributes(); ?> class="ie9 <?php echo 'custom-class'; ?>"> <![endif]-->
+<!--[if IE 8 ]> <html <?php language_attributes(); ?> class="ie8 <?php echo 'custom-class'; ?>"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="<?php echo 'custom-class'; ?>"> <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,12 +19,12 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div id="" class="">
+<div id="wrapper" class="">
 
-	<header id="" class="">
+	<header id="header" class="header <?php echo 'custom-class'; ?>">
 		<nav id="" class="">
 
 		</nav><!-- # -->
-	</header><!-- # -->
+	</header><!-- #header -->
 
-	<div id="content" class="">
+	<main id="main" class="">
