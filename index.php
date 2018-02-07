@@ -1,6 +1,8 @@
 <?php
 /**
  * Themes index file
+ *
+ * @package dg
  */
 
 get_header(); ?>
